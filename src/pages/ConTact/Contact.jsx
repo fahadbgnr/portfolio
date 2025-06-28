@@ -33,6 +33,11 @@ const Contact = () => {
 
     return (
         <section id="contact" className="py-20 px-4 bg-white max-w-6xl mx-auto">
+            <Helmet>
+                <title>
+                    Sheikh Fahad || Contact
+                </title>
+            </Helmet>
             <h1
                 className="text-4xl font-bold text-center text-green-600 mb-16"
                 data-aos="fade-down"
@@ -44,11 +49,6 @@ const Contact = () => {
                 className="flex flex-col md:flex-row bg-white border border-gray-200 rounded-3xl shadow-xl p-8 md:p-10 gap-10 md:gap-12"
                 data-aos="fade-up"
             >
-                <Helmet>
-                    <title>
-                        Sheikh Fahad || Contact
-                    </title>
-                </Helmet>
                 {/* Left: Contact Info */}
                 <div className="md:w-1/2 flex flex-col justify-center space-y-8 md:border-r md:border-gray-300 md:pr-10 pr-0 border-0">
                     <h2 className="text-3xl font-extrabold text-gray-800 mb-4 md:mb-6">
