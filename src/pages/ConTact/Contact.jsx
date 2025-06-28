@@ -35,7 +35,7 @@ const Contact = () => {
         <section id="contact" className="py-20 px-4 bg-white max-w-6xl mx-auto">
             <Helmet>
                 <title>
-                    Sheikh Fahad || Contact
+                    Sheikh Fahad
                 </title>
             </Helmet>
             <h1

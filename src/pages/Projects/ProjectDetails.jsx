@@ -22,7 +22,7 @@ const ProjectDetails = () => {
             <div className="max-w-4xl mx-auto">
                 <Helmet>
                     <title>
-                        Sheikh Fahad || ProjectDetails
+                        Sheikh Fahad
                     </title>
                 </Helmet>
                 <div data-aos="fade-up" className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200">

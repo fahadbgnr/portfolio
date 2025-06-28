@@ -34,7 +34,7 @@ const Skills = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">
         <Helmet>
           <title>
-            Sheikh Fahad || Skills
+            Sheikh Fahad
           </title>
         </Helmet>
         <h2 className="text-3xl font-bold text-green-600 mb-10 text-center" data-aos="fade-down">

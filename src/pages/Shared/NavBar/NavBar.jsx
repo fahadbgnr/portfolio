@@ -5,6 +5,7 @@ import Logo from '../Logo/Logo';
 import Sheikh_Fahad_CV from '../../../../public/Sheikh Fahad CV.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,11 @@ const NavBar = () => {
   return (
     <nav className="bg-white border-b border-gray-200 px-4 py-3 sticky top-0 z-50 shadow-md" data-aos="fade-down">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <Helmet>
+          <title>
+            Sheikh Fahad
+          </title>
+        </Helmet>
         <div className="text-lg font-bold">
           <Logo />
         </div>

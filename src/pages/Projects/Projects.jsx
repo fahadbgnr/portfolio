@@ -77,7 +77,7 @@ const Projects = () => {
             <div className="max-w-6xl mx-auto">
                 <Helmet>
                     <title>
-                        Sheikh Fahad || Projects
+                        Sheikh Fahad
                     </title>
                 </Helmet>
                 <h2

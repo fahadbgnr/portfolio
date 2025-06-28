@@ -13,7 +13,7 @@ const Education = () => {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-10">
         <Helmet>
           <title>
-            Sheikh Fahad || Education
+            Sheikh Fahad
           </title>
         </Helmet>
         <h2

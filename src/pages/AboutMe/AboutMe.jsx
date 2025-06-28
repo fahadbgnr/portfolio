@@ -13,7 +13,7 @@ const AboutMe = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <Helmet>
           <title>
-            Sheikh Fahad || About
+            Sheikh Fahad
           </title>
         </Helmet>
         <h2
