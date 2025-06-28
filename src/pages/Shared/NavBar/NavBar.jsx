@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router'; 
 import { FiMenu, FiX } from 'react-icons/fi';
+import { FaDownload } from 'react-icons/fa'; 
 import Logo from '../Logo/Logo';
-import Sheikh_Fahad_CV from '../../../../public/Sheikh Fahad CV.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Helmet } from 'react-helmet';
@@ -14,7 +14,6 @@ const NavBar = () => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  // dynamic navlink styling function
   const linkClass = ({ isActive }) =>
     isActive
       ? 'text-green-600 font-semibold'
@@ -24,10 +23,10 @@ const NavBar = () => {
     <nav className="bg-white border-b border-gray-200 px-4 py-3 sticky top-0 z-50 shadow-md" data-aos="fade-down">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Helmet>
-          <title>
-            Sheikh Fahad
-          </title>
+          <title>Sheikh Fahad</title>
         </Helmet>
+
+        {/* Logo */}
         <div className="text-lg font-bold">
           <Logo />
         </div>
@@ -42,12 +41,13 @@ const NavBar = () => {
           <NavLink to="/contact" className={linkClass}>Contact</NavLink>
         </div>
 
-        {/* Resume Button */}
+        {/* Resume Button (Desktop) */}
         <a
-          href={Sheikh_Fahad_CV}
+          href="/Sheikh Fahad CV.pdf" 
           download
-          className="hidden md:inline-block bg-green-600 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition"
+          className="hidden md:inline-flex items-center gap-2 bg-green-600 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition"
         >
+          <FaDownload />
           Resume
         </a>
 
@@ -71,11 +71,14 @@ const NavBar = () => {
           <NavLink to="/education" onClick={() => setIsOpen(false)} className={linkClass}>Education</NavLink>
           <NavLink to="/projects" onClick={() => setIsOpen(false)} className={linkClass}>Projects</NavLink>
           <NavLink to="/contact" onClick={() => setIsOpen(false)} className={linkClass}>Contact</NavLink>
+
+          {/* Resume Button (Mobile) */}
           <a
-            href={Sheikh_Fahad_CV}
+            href="/Sheikh Fahad CV.pdf"
             download
-            className="bg-green-600 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition mx-auto w-[150px]"
+            className="inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold px-4 py-2 rounded hover:bg-green-700 transition mx-auto w-[150px]"
           >
+            <FaDownload />
             Resume
           </a>
         </div>
