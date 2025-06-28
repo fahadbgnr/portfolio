@@ -38,7 +38,7 @@ const Banner = () => {
 
           {/* Resume Button with Icon */}
           <a
-            href="/Sheikh Fahad CV.pdf"
+            href="/SheikhFahadCV.pdf"
             className="inline-flex items-center gap-2 mt-4 bg-green-600 text-white px-6 py-2 rounded font-semibold hover:bg-green-700 transition"
             download
           >
