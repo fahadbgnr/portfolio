@@ -12,7 +12,7 @@ const Home = () => {
         <div>
             <Helmet>
                 <title>
-                    Sheikh Fahad
+                    Sheikh Fahad || Home
                 </title>
             </Helmet>
             <Banner></Banner>
