@@ -10,11 +10,9 @@ const AboutMe = () => {
 
   return (
     <section className="py-20 bg-white" id="about">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Helmet>
-          <title>
-            Sheikh Fahad
-          </title>
+          <title>Sheikh Fahad</title>
         </Helmet>
         <h2
           className="text-4xl font-bold text-green-600 mb-12 text-center"
@@ -23,8 +21,22 @@ const AboutMe = () => {
           About Me
         </h2>
 
+        {/* Card */}
         <div
-          className="max-w-3xl mx-auto text-gray-800 space-y-6 leading-relaxed text-justify"
+          className="
+            bg-white 
+            rounded-3xl 
+            shadow-md 
+            p-10 
+            text-gray-800 
+            space-y-6 
+            leading-relaxed 
+            text-justify 
+            backdrop-blur-sm 
+            transition-all 
+            duration-500 
+            ease-in-out
+          "
           data-aos="fade-up"
         >
           <p>
