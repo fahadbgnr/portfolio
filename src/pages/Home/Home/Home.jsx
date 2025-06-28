@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 import AboutMe from '../../AboutMe/AboutMe';
 import Skills from '../../Skills/Skills';
 import Education from '../../Education/Education';
+import Projects from '../../Projects/Projects';
+import Contact from '../../ConTact/Contact';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <AboutMe></AboutMe>
             <Skills></Skills>
             <Education></Education>
+            <Projects></Projects>
+            <Contact></Contact>
         </div>
     );
 };

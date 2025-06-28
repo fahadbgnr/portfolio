@@ -1,0 +1,109 @@
+[
+  {
+    "id": "1",
+    "title": "🧠 TaskHive - Freelance Task Marketplace",
+    "live": "https://freelance-task-app.web.app",
+    "github": "https://github.com/fahadbgnr/freelancer-client-task",
+    "description": "TaskHive is a modern freelance task marketplace where clients can post tasks and freelancers can complete them efficiently. It provides a simple yet powerful user experience with Firebase authentication and real-time UI updates.",
+    "tech": [
+      "React",
+      "React Router",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "DaisyUI",
+      "SweetAlert2",
+      "Axios",
+      "Lottie-react"
+    ],
+    "features": [
+      "🔐 Secure login/signup with Google & email/password via Firebase",
+      "🎯 Role-based navigation depending on user type",
+      "📋 Task posting and browsing between clients and freelancers",
+      "📦 React Context API for global auth/user state management",
+      "💬 SweetAlert2 notifications for user actions"
+    ],
+    "challenges": [
+      "Managing global auth state with React Context",
+      "Dynamic navbar rendering for authenticated vs unauthenticated users",
+      "Protecting dashboard routes based on user role"
+    ],
+    "future": [
+      "Add chat system between clients and freelancers",
+      "Add task filtering and search",
+      "Add task status tracking and completion feedback"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "👨‍💻 Career Code",
+    "live": "https://career-code-be114.web.app",
+    "github": "https://github.com/fahadbgnr/career-code-client",
+    "description": "Career Code is an interactive job-hunting web app that allows users to browse jobs, view job details, and apply with Firebase auth. It includes job categories, application management, and real-time data rendering.",
+    "tech": [
+      "React",
+      "React Router",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "DaisyUI",
+      "SweetAlert2",
+      "Axios",
+      "Lottie-react"
+    ],
+    "features": [
+      "🔐 Firebase Authentication (Sign In / Sign Up)",
+      "💼 Browse available jobs by category or company",
+      "📄 Detailed job pages with role, salary, and location",
+      "📝 Apply to jobs and manage application state",
+      "⚠️ Feedback with SweetAlert2 alerts"
+    ],
+    "challenges": [
+      "Filtering job listings in real-time",
+      "Maintaining auth-protected application pages",
+      "UI/UX consistency across mobile and desktop"
+    ],
+    "future": [
+      "Offline job saving",
+      "Admin job posting panel",
+      "Push notification for job status"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "🐉 Dragon News",
+    "live": "https://dragon-news-3dfae.web.app",
+    "github": "https://github.com/fahadbgnr/dragon-news",
+    "description": "Dragon News is a modern news portal web application where users can browse categorized news articles, log in securely using Firebase Authentication, and enjoy a smooth and dynamic user experience. The app features client-side routing, date-wise news updates, a breaking news ticker, and a clean, responsive UI that works seamlessly on mobile and desktop devices. It also supports dark mode for better accessibility.",
+    "tech": [
+      "React (v19)",
+      "React Router (v7)",
+      "Firebase Authentication",
+      "Tailwind CSS with DaisyUI",
+      "React Fast Marquee",
+      "date-fns"
+    ],
+    "features": [
+      "🔐 Secure Firebase Authentication (Email/Password)",
+      "📰 Category-based dynamic news rendering",
+      "📆 Date-wise updates using date-fns",
+      "🧭 Client-side routing with React Router",
+      "📱 Fully responsive layout using Tailwind CSS and DaisyUI",
+      "💡 Breaking news ticker using react-fast-marquee",
+      "🌙 Dark mode supported"
+    ],
+    "challenges": [
+      "Dynamic category-based content rendering",
+      "Managing and persisting Firebase auth state",
+      "Responsive design and smooth routing",
+      "Breaking ticker performance optimization",
+      "Localizing dates using date-fns"
+    ],
+    "future": [
+      "User profiles and saved article bookmarks",
+      "Offline support and caching",
+      "Accessibility improvements (ARIA, keyboard navigation)",
+      "Multi-language support",
+      "Social media sharing integration",
+      "Better SEO via Next.js or static generation techniques"
+    ]
+  }
+]

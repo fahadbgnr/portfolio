@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet';
 
 const Skills = () => {
   useEffect(() => {
@@ -31,6 +32,11 @@ const Skills = () => {
   return (
     <section className="py-16" id="skills">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">
+        <Helmet>
+          <title>
+            Sheikh Fahad || Skills
+          </title>
+        </Helmet>
         <h2 className="text-3xl font-bold text-green-600 mb-10 text-center" data-aos="fade-down">
           My Skills
         </h2>

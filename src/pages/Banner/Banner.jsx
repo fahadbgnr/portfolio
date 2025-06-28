@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Pic from '../../assets/pic.png';
 import Sheikh_Fahad_CV from '../../../public/Sheikh Fahad CV.pdf';
 
+
 const Banner = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 });
