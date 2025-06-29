@@ -12,12 +12,15 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className="bg-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-10 lg:gap-100 md:50">
-        <Helmet>
-          <title>Sheikh Fahad</title>
-        </Helmet>
+    <section className="py-12">
+      <Helmet>
+        <title>Sheikh Fahad</title>
+      </Helmet>
 
+      <div
+        className="w-full min-h-[80vh] rounded-2xl shadow-lg px-4 sm:px-6 md:px-10 py-10 flex flex-col md:flex-row items-center justify-center gap-10"
+        data-aos="zoom-in"
+      >
         {/* Text Section */}
         <div className="md:w-1/2 space-y-4 text-center md:text-left" data-aos="fade-right">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800">Sheikh Fahad</h1>
@@ -48,9 +51,9 @@ const Banner = () => {
         </div>
 
         {/* Profile Image */}
-        <div className="md:w-1/2 flex justify-center" data-aos="fade-left">
+        <div className="md:w-1/2 flex justify-center ml-6 sm:ml-10 md:ml-16" data-aos="fade-left">
           <img
-            className="w-52 h-52 sm:w-64 sm:h-64 object-cover rounded-2xl"
+            className="w-52 h-52 sm:w-64 sm:h-64 object-cover rounded-2xl shadow-md"
             src={Pic}
             alt="Sheikh Fahad"
           />
