@@ -10,6 +10,7 @@ const RootLayout = () => {
                 <title>
                     Sheikh Fahad
                 </title>
+                
             </Helmet>
             <NavBar></NavBar>
             <Outlet></Outlet>
