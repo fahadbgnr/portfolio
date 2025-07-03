@@ -18,11 +18,11 @@ const Banner = () => {
       </Helmet>
 
       <div
-        className="w-full min-h-[80vh] rounded-2xl shadow-lg px-4 sm:px-6 md:px-10 py-10 flex flex-col md:flex-row items-center justify-center gap-10"
+        className="w-full min-h-[80vh] shadow-lg px-4 sm:px-6 md:px-10 py-10 flex flex-col md:flex-row items-center justify-center gap-10"
         data-aos="zoom-in"
       >
         {/* Text Section */}
-        <div className="md:w-1/2 space-y-4 text-center md:text-left" data-aos="fade-right">
+        <div className="md:w-1/2 space-y-4 lg:ml-50 text-center md:text-left" data-aos="fade-right">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800">Sheikh Fahad</h1>
           <h2 className="text-xl sm:text-2xl text-green-600 font-semibold">Web Developer</h2>
           <p className="text-gray-600 max-w-md mx-auto md:mx-0">
@@ -34,7 +34,7 @@ const Banner = () => {
             <a href="https://github.com/fahadbgnr" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/sheikh-fahad-956777357" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sheikhfahad01" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
           </div>
@@ -51,7 +51,7 @@ const Banner = () => {
         </div>
 
         {/* Profile Image */}
-        <div className="md:w-1/2 flex justify-center ml-6 sm:ml-10 md:ml-16" data-aos="fade-left">
+        <div className="md:w-1/2 flex justify-center  sm:ml-10 md:ml-16" data-aos="fade-left">
           <img
             className="w-52 h-52 sm:w-64 sm:h-64 object-cover rounded-2xl shadow-md"
             src={Pic}
