@@ -6,7 +6,7 @@ Welcome to my personal developer portfolio website built using **React** and **T
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio](https://sheikh-fahad-cv.netlify.app/)
+👉 [View Portfolio](https://sheikh-fahad-portfolio.netlify.app/)
 
 ---
 
